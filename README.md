@@ -7,7 +7,7 @@ The package provides sorted list class with methods to work with sorted list.
 Add the package
 
 ```
-composer require dmashkin/sorted-list
+composer require sorted-list/sorted-list
 ```
 
 # How to use
