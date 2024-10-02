@@ -1,7 +1,7 @@
 {
   "name": "sorted-list/sorted-list",
   "description": "The package provides sorted list class.",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "type": "library",
   "require": {
     "php": "^7.4|^8.0"

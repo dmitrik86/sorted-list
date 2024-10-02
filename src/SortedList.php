@@ -5,6 +5,11 @@ class SortedList
 {
     protected array $list = [];
 
+    public function __construct(array $list = [])
+    {
+        $this->set($list);
+    }
+
     /**
      * Get sorted list.
      *
@@ -13,6 +18,16 @@ class SortedList
     public function get(): array
     {
         return $this->list;
+    }
+
+    /**
+     * Set sorted list.
+     * 
+     * @return void
+     */
+    public function set(array $list): void
+    {
+        $this->list = $list;
     }
 
     /**
